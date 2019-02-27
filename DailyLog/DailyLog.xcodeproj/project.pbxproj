@@ -105,14 +105,14 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		544DB34F22269D8F006FFE48 /* Client */ = {
+		544DB34F22269D8F006FFE48 /* Company */ = {
 			isa = PBXGroup;
 			children = (
 				544DB35022269D8F006FFE48 /* ViewModel */,
 				544DB35122269D8F006FFE48 /* Model */,
 				544DB35222269D8F006FFE48 /* View */,
 			);
-			path = Client;
+			path = Company;
 			sourceTree = "<group>";
 		};
 		544DB35022269D8F006FFE48 /* ViewModel */ = {
@@ -191,7 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				544DB35322269DA7006FFE48 /* DataSource */,
-				544DB34F22269D8F006FFE48 /* Client */,
+				544DB34F22269D8F006FFE48 /* Company */,
 				544DB3432226999C006FFE48 /* CheckIn */,
 				54ADC78122204C6600F8D516 /* AppDelegate.swift */,
 				54ADC78322204C6600F8D516 /* ViewController.swift */,
