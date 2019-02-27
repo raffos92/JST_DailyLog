@@ -74,6 +74,99 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		544DB3432226999C006FFE48 /* CheckIn */ = {
+			isa = PBXGroup;
+			children = (
+				544DB34622269A74006FFE48 /* ViewModel */,
+				544DB34522269A58006FFE48 /* View */,
+				544DB34422269A47006FFE48 /* Model */,
+			);
+			path = CheckIn;
+			sourceTree = "<group>";
+		};
+		544DB34422269A47006FFE48 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		544DB34522269A58006FFE48 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		544DB34622269A74006FFE48 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		544DB34F22269D8F006FFE48 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				544DB35022269D8F006FFE48 /* ViewModel */,
+				544DB35122269D8F006FFE48 /* Model */,
+				544DB35222269D8F006FFE48 /* View */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		544DB35022269D8F006FFE48 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		544DB35122269D8F006FFE48 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		544DB35222269D8F006FFE48 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		544DB35322269DA7006FFE48 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				544DB35422269DA7006FFE48 /* ViewModel */,
+				544DB35522269DA7006FFE48 /* Model */,
+				544DB35622269DA7006FFE48 /* View */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		544DB35422269DA7006FFE48 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		544DB35522269DA7006FFE48 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		544DB35622269DA7006FFE48 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		54ADC77522204C6600F8D516 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +190,9 @@
 		54ADC78022204C6600F8D516 /* DailyLog */ = {
 			isa = PBXGroup;
 			children = (
+				544DB35322269DA7006FFE48 /* DataSource */,
+				544DB34F22269D8F006FFE48 /* Client */,
+				544DB3432226999C006FFE48 /* CheckIn */,
 				54ADC78122204C6600F8D516 /* AppDelegate.swift */,
 				54ADC78322204C6600F8D516 /* ViewController.swift */,
 				54ADC78522204C6600F8D516 /* Main.storyboard */,
