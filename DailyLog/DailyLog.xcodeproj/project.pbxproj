@@ -14,6 +14,9 @@
 		54ADC78C22204C6900F8D516 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54ADC78A22204C6900F8D516 /* LaunchScreen.storyboard */; };
 		54ADC79722204C6900F8D516 /* DailyLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ADC79622204C6900F8D516 /* DailyLogTests.swift */; };
 		54ADC7A222204C6900F8D516 /* DailyLogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ADC7A122204C6900F8D516 /* DailyLogUITests.swift */; };
+		54DCE79C222FD22800DA54AF /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DCE79B222FD22800DA54AF /* File.swift */; };
+		54DCE79E222FD23700DA54AF /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DCE79D222FD23700DA54AF /* File.swift */; };
+		54DCE7A0222FD24B00DA54AF /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DCE79F222FD24B00DA54AF /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		54ADC79D22204C6900F8D516 /* DailyLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54ADC7A122204C6900F8D516 /* DailyLogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyLogUITests.swift; sourceTree = "<group>"; };
 		54ADC7A322204C6900F8D516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54DCE79B222FD22800DA54AF /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		54DCE79D222FD23700DA54AF /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		54DCE79F222FD24B00DA54AF /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,7 @@
 				544DB34622269A74006FFE48 /* ViewModel */,
 				544DB34522269A58006FFE48 /* View */,
 				544DB34422269A47006FFE48 /* Model */,
+				54DCE79F222FD24B00DA54AF /* File.swift */,
 			);
 			path = CheckIn;
 			sourceTree = "<group>";
@@ -111,6 +118,7 @@
 				544DB35022269D8F006FFE48 /* ViewModel */,
 				544DB35122269D8F006FFE48 /* Model */,
 				544DB35222269D8F006FFE48 /* View */,
+				54DCE79B222FD22800DA54AF /* File.swift */,
 			);
 			path = Company;
 			sourceTree = "<group>";
@@ -142,6 +150,7 @@
 				544DB35422269DA7006FFE48 /* ViewModel */,
 				544DB35522269DA7006FFE48 /* Model */,
 				544DB35622269DA7006FFE48 /* View */,
+				54DCE79D222FD23700DA54AF /* File.swift */,
 			);
 			path = DataSource;
 			sourceTree = "<group>";
@@ -352,7 +361,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54DCE7A0222FD24B00DA54AF /* File.swift in Sources */,
 				54ADC78422204C6600F8D516 /* ViewController.swift in Sources */,
+				54DCE79E222FD23700DA54AF /* File.swift in Sources */,
+				54DCE79C222FD22800DA54AF /* File.swift in Sources */,
 				54ADC78222204C6600F8D516 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
